@@ -20,7 +20,7 @@ The app logic I created for proving concept is mashed up from Eriks books exampl
 
 I created a `Manifest.in` file whose aim was to package the data files for distribution (is the needed preparation for the `dist` command), infos see [here](TODO). For this aim I also have the `include_package_data` clause in the `setup.py` file.
 
-Next made a folder `src` with the package folder in it (package name as in buildout.cfg, in our case `python_package_example`) and in that package folder the "main" `__init__.py` file and a file (`tests.py`) with some method(s) specifing tests to run. Our program(s) will use some data at runtime to read in and analse. As I found it too big for duplication, let this as a task for you to load it. Install wget for your system [\*]. Now load the data archive and unpack it with your systems app for zip files  (see p. 39 in Eriks book):
+Next made a folder `src` with the package folder in it (package name as in buildout.cfg, in our case `python_package_example`) and in that package folder the "main" `__init__.py` file and a file (`tests.py`) with some method(s) specifying tests to run. Our program(s) will use some data at runtime to read in and analse. As I found it too big for duplication, let this as a task for you to load it. Install wget for your system [\*]. Now load the data archive and unpack it with your systems app for zip files  (see p. 39 in Eriks book):
 
     wget -c -Psrc/python_package_example/data -- http://www2.census.gov/geo/tiger/TIGER2009/tl_2009_us_state.zip
 
